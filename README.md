@@ -5,7 +5,7 @@ El dataset usado para la construcción del modelo pertenecen a un banco que dese
 para ofrecer depósitos a plazo fijo. Con este modelo se busca realizar una clasificación para predecir si los clientes
 aceptarían realizar el deposito.
 
-Para la construcción del clasificador se entrena un modelo de regresión lineal, con un dataset balanceado
+Para la construcción del clasificador se entrena un modelo de regresión logística, con un dataset balanceado
 de 11000 clientes aproximadamente.
 
 ## Estructura Dataset
