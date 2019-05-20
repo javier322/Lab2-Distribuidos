@@ -40,6 +40,7 @@ https://towardsdatascience.com/machine-learning-with-pyspark-and-mllib-solving-a
       'success','failure','unknown'
  - deposit (String): Indica si el cliente aceptó hacer el depósito. (SOLO PARA ENTRENAMIENTO):
       'yes','no'
+ - id (Int): Este campo sirve para diferenciar a los clientes y se agrega solo en caso de consultas.
    
 El dataset usado para este caso se obtiene de https://www.kaggle.com/rouseguy/bankbalanced, el cual corresponde
 a una adaptación del dataset presente en UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
