@@ -45,11 +45,11 @@ a una adaptación del dataset presente en UCI Machine Learning Repository (https
 
 Actualmente se cuenta con dos funciones en el archivo classifier.py, las cuales corresponden a:
 
-  - makeModel (<nombre pipeline_model>(String), <nombre_model>(String)) : Esta funcion permite construir y entrenar un 
+  - makeModel (nombre pipeline_model (String), nombre_model(String)) : Esta funcion permite construir y entrenar un 
 clasificador a través de un modelo de regresión logística. Para dar persistencia al modelo construido se deben ingresar 2 argumentos. El primero se corresponde el flujo de procesamiento por el que deben pasar los datos antes de ser evaluado, mientras que el segundo se refiere al nombre con el que se guarda el modelo clasificador.
  
-  - makePrediction (data (Json),<nombre pipeline_model>(String), <nombre_model>(String)): Esta función permite realizar
-la clasificación de un cliente determinado usando un modelo ya creado. Los argumentos que recibe corresponden a una           lista de clientes, en formato JSON (Con la estructura previamente señalada), nombre del pipeline y modelo creado anteriormente. Como resultado devuelve una lista de diccionarios, donde cada elemento contiene un campo 'prediction' que toma el valor 1.0(si) o 0.0 (no)
+  - makePrediction (data (Json),nombre pipeline_model(String), nombre_model(String)): Esta función permite realizar
+la clasificación de un cliente determinado usando un modelo ya creado. Los argumentos que recibe corresponden a una           lista de clientes, en formato JSON (Con la estructura previamente señalada), nombre del pipeline y modelo creado anteriormente. Como resultado devuelve una lista de diccionarios, donde cada elemento contiene un campo 'prediction' que toma el valor 1.0(si) o 0.0 (no).
   
   
 
