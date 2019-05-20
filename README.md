@@ -8,6 +8,9 @@ aceptarían realizar el deposito.
 Para la construcción del clasificador se entrena un modelo de regresión logística, con un dataset balanceado
 de 11000 clientes aproximadamente.
 
+La construcciión del modelo se lleva a cabo siguiendo las instrucciones de Susan Li en 
+https://towardsdatascience.com/machine-learning-with-pyspark-and-mllib-solving-a-binary-classification-problem-96396065d2aa
+
 ## Estructura Dataset
 
  - age (Int): Edad del cliente
