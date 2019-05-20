@@ -45,7 +45,7 @@ def makePrediction(data,name_pipelineModel,name_model):
     
     model=LogisticRegressionModel.load(name_model)
     result=model.transform(df)
-    
+
     value=result.select('prediction').collect()
     predictions=[]
     for p  in value:
@@ -77,45 +77,45 @@ def makeModel(name_pipelineModel,name_model):
 
 
 
-# makeModel("pipeline2","model2")
-# element=[
-#    {
-#     "age": 50,
-#     "job": "retired",
-#     "marital": "single",
-#     "education": "tertiary",
-#     "default": "yes",
-#     "balance": 2000,
-#     "housing": "yes",
-#     "loan": "yes",
-#     "contact": "cellular",
-#     "duration": 120,
-#     "campaign": 1,
-#     "pdays": -1,
-#     "previous": 0,
-#     "poutcome": "unknown"
-#   },
-#   {
-#     "age": 23,
-#     "job": "student",
-#     "marital": "single",
-#     "education": "tertiary",
-#     "default": "no",
-#     "balance": 0,
-#     "housing": "no",
-#     "loan": "no",
-#     "contact": "cellular",
-#     "duration": 120,
-#     "campaign": 1,
-#     "pdays": -1,
-#     "previous": 0,
-#     "poutcome": "success"
-#   }]
-# result=makePrediction(element,"pipeline2","model2")
-# print("aqui llego")
-# print(result)
-# for r in result:
-#     print(r)
-#     print(type(r))
+makeModel("pipeline2","model2")
+element=[
+   {
+    "age": 50,
+    "job": "retired",
+    "marital": "single",
+    "education": "tertiary",
+    "default": "yes",
+    "balance": 2000,
+    "housing": "yes",
+    "loan": "yes",
+    "contact": "cellular",
+    "duration": 120,
+    "campaign": 1,
+    "pdays": -1,
+    "previous": 0,
+    "poutcome": "unknown"
+  },
+  {
+    "age": 23,
+    "job": "student",
+    "marital": "single",
+    "education": "tertiary",
+    "default": "no",
+    "balance": 0,
+    "housing": "no",
+    "loan": "no",
+    "contact": "cellular",
+    "duration": 120,
+    "campaign": 1,
+    "pdays": -1,
+    "previous": 0,
+    "poutcome": "success"
+  }]
+result=makePrediction(element,"pipeline2","model2")
+print("aqui llego")
+print(result)
+for r in result:
+    print(r)
+    print(type(r))
 
 
