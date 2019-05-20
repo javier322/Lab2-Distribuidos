@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1558322793706,"sparkVersion":"2.4.0","uid":"OneHotEncoderEstimator_2a191f0b79a1","paramMap":{"inputCols":["jobIndex"],"outputCols":["jobclassVec"]},"defaultParamMap":{"dropLast":true,"handleInvalid":"error"}}
