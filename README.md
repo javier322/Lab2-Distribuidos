@@ -81,7 +81,7 @@ Este servicio recibe uno o más Json que deben seguir la estructura mencionada a
 
 Para evaluar el modelo se hace uso de una curva ROC, la cual permite apreciar el rendimiento que alcanza un clasificador. 
 
-[Curva ROC](imagenes/ROC.png)
+![Curva ROC](imagenes/ROC.png)
 
 
 El area bajo la curva indica la capacidad que tiene el modelo para distinguir entre los dos clases a la hora de realizar la predicción. Mientras mas cercano a 1 sea el valor, significa un mayor precision. Para este caso el area es de 0.8849092421146739. 
