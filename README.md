@@ -87,7 +87,9 @@ El area bajo la curva indica la capacidad que tiene el modelo para distinguir en
 
 ### Almacenamiento del modelo
 
-Para la implementación de este Api es necesario contar con dos elementos importantes, los cuales corresponden a un Pipeline y el modelo clasificador. El primero corresponde a un conjunto de procedimientos a través del cual se pre-procesan los datos, para que estos sean envados al modelo con el fin de efectuar la clasificación. Tal como se puede apreciar en la imagen, ambos elementos fueron construidos previamente y se encuentran almacenados en Amazon s3.
+Para la implementación de este Api es necesario contar con dos elementos importantes, los cuales corresponden a un Pipeline y el modelo clasificador. El primero corresponde a un conjunto de procedimientos a través del cual se pre-procesan los datos, para que estos sean enviados al modelo con el fin de efectuar la clasificación. 
+
+Tal como se puede apreciar en la imagen, ambos elementos fueron construidos previamente y se encuentran almacenados en Amazon s3. Además, tambien se puede observar el archivo bank.csv, el cual corresponde a datset usado para el entrenamiento del modelo.
 
 [S3]
 
