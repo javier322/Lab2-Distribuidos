@@ -91,7 +91,7 @@ Para la implementación de este Api es necesario contar con dos elementos import
 
 Tal como se puede apreciar en la imagen, ambos elementos fueron construidos previamente y se encuentran almacenados en Amazon s3. Además, tambien se puede observar el archivo bank.csv, el cual corresponde a datset usado para el entrenamiento del modelo.
 
-![S3](Imaganes/s3.jpeg)
+![S3](Imagenes/s3.jpeg)
 
 ### Despliegue de la API
 
