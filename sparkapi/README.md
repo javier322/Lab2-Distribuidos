@@ -1,24 +1,44 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Proyecto API backend para utilizar el proyecto ubicado Lab2-distribuidos (carpeta raíz)
 
-Things you may want to cover:
+la ruta la cual recibe y precide es: *{url}/python/classifier_post*
 
-* Ruby version
 
-* System dependencies
+y el objeto modelo es una lista de la siguiente forma:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[
+ {
+  "id": 3,
+  "age": 50,
+  "job": "retired",
+  "marital": "single",
+  "education": "tertiary",
+  "default": "yes",
+  "balance": 2000,
+  "housing": "yes",
+  "loan": "yes",
+  "contact": "cellular",
+  "duration": 120,
+  "campaign": 1,
+  "pdays": -1,
+  "previous": 0,
+  "poutcome": "unknown"
+},
+{
+  "id":1,
+  "age": 23,
+  "job": "student",
+  "marital": "single",
+  "education": "tertiary",
+  "default": "no",
+  "balance": 0,
+  "housing": "no",
+  "loan": "no",
+  "contact": "cellular",
+  "duration": 120,
+  "campaign": 1,
+  "pdays": -1,
+  "previous": 0,
+  "poutcome": "success"
+}]
