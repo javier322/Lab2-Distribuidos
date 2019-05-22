@@ -91,13 +91,13 @@ Para la implementación de este Api es necesario contar con dos elementos import
 
 Tal como se puede apreciar en la imagen, ambos elementos fueron construidos previamente y se encuentran almacenados en Amazon s3. Además, tambien se puede observar el archivo bank.csv, el cual corresponde a datset usado para el entrenamiento del modelo.
 
-[S3]
+![S3](Imaganes/s3.jpeg)
 
 ### Despliegue de la API
 
 La APi se encuentra desplegada en Amazon EC2 en un contenedor. Esta puede ser accedida desde la siguiente iP [Ip api]. En la siguiente imagen se puede confirmar dicho despliegue:
 
-[EC2]
+![EC2](Imagenes/ec2.jpeg)
 
 ## Link de Acceso
 
