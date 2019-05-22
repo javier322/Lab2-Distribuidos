@@ -11,7 +11,13 @@ import json
 
 import ast
 import sys
+import boto3
 
+
+ACCESS_KEY = 'AKIATBNC7FRVHQRCU7OZ'
+SECRET_KEY = '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'
+s3 = boto3.client('s3',aws_access_key_id=ACCESS_KEY, aws_secret_access_key=SECRET_KEY)
+s3.download_file('labmlspark', 'bank.csv', 'bank.csv')
 
 SCHEMA = StructType([
     StructField("id",IntegerType(),True),
