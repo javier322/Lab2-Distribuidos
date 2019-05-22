@@ -107,6 +107,14 @@ Como se menciona anteriormente, para acceder al servicio de consulta se usar la 
 
 El servicio se encuentra alojado en un contenedor, por lo que es necesario tener instalado Docker. Cosiderando esto, los pasos para desplegar el serivicio son los siguientes.
 
+-crear cuenta de aws https://aws.amazon.com/es/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=categories%23featured
+.
+-crear instancia ec2 :https://docs.aws.amazon.com/es_es/efs/latest/ug/gs-step-one-create-ec2-resources.html
+
+-crear bucket s3: https://docs.aws.amazon.com/es_es/efs/latest/ug/gs-step-one-create-ec2-resources.html
+
+- subir el data set al bucket de s3
+
 - Instalar Docker
 
 - Clonar el repositorio
