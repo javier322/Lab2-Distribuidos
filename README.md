@@ -95,13 +95,13 @@ Tal como se puede apreciar en la imagen, ambos elementos fueron construidos prev
 
 ### Despliegue de la API
 
-La APi se encuentra desplegada en Amazon EC2 en un contenedor. Esta puede ser accedida desde la siguiente iP [Ip api]. En la siguiente imagen se puede confirmar dicho despliegue:
+La APi se encuentra desplegada en Amazon EC2 en un contenedor. Esta puede ser accedida desde la siguiente iP http://18.220.192.84:8080/python/classifier_post. En la siguiente imagen se puede confirmar dicho despliegue:
 
 ![EC2](Imagenes/ec2.jpeg)
 
 ## Link de Acceso
 
-Como se menciona anteriormente, para acceder al servicio de consulta se usar la siguiente dirección ip: [IP api] . Además se debe enviar un arreglo con 1 o más Json que sigan la estructura mencionada anteriormente.
+Como se menciona anteriormente, para acceder al servicio de consulta se usar la siguiente dirección ip: http://18.220.192.84:8080/python/classifier_post . Además se debe enviar un arreglo con 1 o más Json que sigan la estructura mencionada anteriormente.
 
 ## Despliegue del servicio
 
@@ -115,15 +115,10 @@ El servicio se encuentra alojado en un contenedor, por lo que es necesario tener
 
 - subir el data set al bucket de s3
 
-- Instalar Docker
+- Instalar ruby y rails
+- Instalar python
+- Ejecutar
 
-- Clonar el repositorio
-
-- Ejecutar el siguiente comando para consturir la imagen docker: sudo docker build -t <nombre-imagen>:<tag> .
- 
-- Crear una instancia de la imagen creada: sudo docker run --name <nombre contenedor> -p 8080:8080 <nombre-imagen>:<tag>
- 
-- Luego de seguir estos pasos, se podra consultar la Api en el puerto 8080.
 
 
 
