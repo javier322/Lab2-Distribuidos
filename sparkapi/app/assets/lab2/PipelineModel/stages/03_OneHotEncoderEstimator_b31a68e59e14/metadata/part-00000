@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1558322794824,"sparkVersion":"2.4.0","uid":"OneHotEncoderEstimator_b31a68e59e14","paramMap":{"inputCols":["maritalIndex"],"outputCols":["maritalclassVec"]},"defaultParamMap":{"dropLast":true,"handleInvalid":"error"}}
