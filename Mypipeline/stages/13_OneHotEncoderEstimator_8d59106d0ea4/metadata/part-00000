@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.OneHotEncoderEstimator","timestamp":1558232131816,"sparkVersion":"2.4.0","uid":"OneHotEncoderEstimator_8d59106d0ea4","paramMap":{"outputCols":["contactclassVec"],"inputCols":["contactIndex"]},"defaultParamMap":{"dropLast":true,"handleInvalid":"error"}}

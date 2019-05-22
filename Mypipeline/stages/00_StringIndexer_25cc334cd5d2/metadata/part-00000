@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.StringIndexer","timestamp":1558232131190,"sparkVersion":"2.4.0","uid":"StringIndexer_25cc334cd5d2","paramMap":{"inputCol":"job","outputCol":"jobIndex"},"defaultParamMap":{"handleInvalid":"error","stringOrderType":"frequencyDesc","outputCol":"StringIndexer_25cc334cd5d2__output"}}
