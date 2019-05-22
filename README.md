@@ -10,7 +10,7 @@
 
 ## Descripción del problema
 
-En el contexto del area bancarea, un banco desea iniciar una campaña de marketing para ofrcer depósitos a plazo.
+En el contexto del area bancaria, un banco desea iniciar una campaña de marketing para ofrcer depósitos a plazo.
 Con el fin de que esta sea un exito, el banco planea contactarse con sus clientes a través de llamadas telefonicas, para ofrecer el producto, de tal forma que la interacción con estos sea mejor. Sin embargp, debido a la gran cantidad de clientes con los que cuenta el banco sería muy costoso, tanto en terminos economicos como de tiempo, contactarse con todos. Por lo tanto, el banco se vé obligado a llamar solo a una porción de sus clientes. No obstante, no existe garantia de que todos estos acepten. Así, se plantea la siguiente pregunta: ¿De qué forma se podría seleccionar a los clientes para que la campaña sea un exito?.
 
 ## Enfoque de solución
